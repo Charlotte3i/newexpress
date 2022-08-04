@@ -1,0 +1,54 @@
+#include<stdio.h>
+int chucnang1() {}
+int chucnang2() {}
+int chucnang3() {}
+int chucnang4() {}
+int chucnang5() {}
+int chucnang6() {}
+int chucnang7() {}
+int chucnang8() {}
+int chucnang9() {}
+int chucnang10() {}
+int main()
+{
+int o;
+	printf(" nhap chuong trinh tu 1-->10 \n");
+	printf("++--------------------------------------------++\n");
+	printf("|chucnang1 : kiem tra so nguyen                |\n");
+	printf("|chucnang2 : tim uoc va boi chung cua 2 so     |\n");
+	printf("|chucnang3 : tinh tien cho quan karaoke        |\n");
+	printf("|chucnang4 : tinh tien dien                    |\n");
+	printf("|chucnang5 : chuc nang doi tien                |\n");
+	printf("|chucnang6 : lai suat ngan hang vay tra gop    |\n");
+	printf("|chucnang7 : chuong trinh vay tien mua xe      |\n");
+	printf("|chucnang8 : sap xep thong tin sinh vien       |\n");
+	printf("|chucnang9 :xay dung game fpoly_llot           |\n");
+	printf("|chucnang10 : chuong trinh tinh phan so        |\n");
+	printf("++--------------------------------------------++\n");
+	do {
+	printf("nhap chuong trinh muon chay: ");
+	scanf("%d",&o);
+switch(o) {
+	case 1 : chucnang1();
+	break;
+	case 2 : chucnang2();
+	break;
+	case 3 : chucnang3();
+	break;
+	case 4 : chucnang4();
+	break;
+	case 5 : chucnang5();
+	break;
+	case 6 : chucnang6();
+	break;
+	case 7 : chucnang7();
+	break;
+	case 8 : chucnang8();
+	break;
+	case 9 : chucnang9();
+	break;
+	case 10 : chucnang10();
+	break;
+}
+} while (o<1 || o>10);
+}
